@@ -1,3 +1,7 @@
+## links to projects
+### Single Page Web
+<a href="https://github.com/trigal2012/web-page-practice/blob/gh-pages/random/random.html">Random</a>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/trigal2012/trigal2012.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.

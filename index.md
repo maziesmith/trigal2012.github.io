@@ -1,6 +1,6 @@
 ## links to projects
 ### Single Page Web
-<a href="https://github.com/trigal2012/web-page-practice/blob/gh-pages/random/random.html">Random</a>
+<a href="https://github.com/trigal2012/trigal2012.github.io/blob/master/Random">Random</a>
 
 ## Welcome to GitHub Pages
 

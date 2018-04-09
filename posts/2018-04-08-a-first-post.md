@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: "Diana Lynne Garbarino, Techincal Project Manager, Software Developer, SQA Engineer"
+title: "DLG Post 1"
 date: 2018-04-08
 ---
 

@@ -6,6 +6,7 @@ title: My Blog
 <ul>
   {% for post in site.posts %}
     <li>
+      <span>{{post.date}}</span>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}

@@ -1,2 +1,3 @@
 name: Diana Lynne Garbarino, Technical Project Manager, Software Developer, SQA Engineer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

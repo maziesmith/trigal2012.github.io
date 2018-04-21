@@ -185,44 +185,42 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Aussie Rule Football</h3>
-                        <p> self designed, basic game play based on button click. java code to learn how to keep track of scores for multiple teams, reset the game, start over, keeping track of stats, update UI based on button action.
+                        <p> self designed, basic game play based on button click. java code to learn how to keep track of scores for multiple teams, reset the game, start over, keeping track of stats, update UI based on button action.</p>
 
-                        Rules of the Game, loosely based on Australian Rules Football
+                        <p>Rules of the Game, loosely based on Australian Rules Football</p>
 
-                        Teams can score three ways:
-
-                        goal - 6pts - when ball goes thru tall goal posts of the opposing team
-                        behind - 1pt - when ball goes thru short goal posts of the opposing team
-                        rushed behind - 1pt - when opposing team sends ball thru short goal posts on their end of the field (kind of like a Safety in American Rules Football)
-                        The way the app works:
-
-                        on load, all values are reset and the “Run Play” is disabled
+                        <p>Teams can score three ways:</p>
+                        <ul>
+                            <li>goal - 6pts - when ball goes thru tall goal posts of the opposing team</li>
+                            <li>behind - 1pt - when ball goes thru short goal posts of the opposing team</li>
+                            <li>rushed behind - 1pt - when opposing team sends ball thru short goal posts on their end of the field (kind of like a Safety in American Rules Football)</li>
+                        </ul>
+                        <p>The way the app works:</p>
+                        <ul>
+                        <li>on load, all values are reset and the “Run Play” is disabled
                         click on the “New Game” button to start a game:
-                        a. The play button is now clickable
-                        b. A football icon will appear next to the Active Team (default to the team on the left side of the screen)
-                        c. The number 5 appears between the team logos. this is the “Try” counter
-                        The home team gets 5 Trys, then the Away team gets 5 Trys. The Active football icon will move accordingly
-                        clicking the “Run Play” button will run a Try
-                        If the play results in a goal, behind, or rushed behind, the scores and Stats table are updated accordingly
+                        <li>a. The play button is now clickable
+                        <li>b. A football icon will appear next to the Active Team (default to the team on the left side of the screen)
+                        <li>c. The number 5 appears between the team logos. this is the “Try” counter
+                        <li>The home team gets 5 Trys, then the Away team gets 5 Trys. The Active football icon will move accordingly
+                        <li>clicking the “Run Play” button will run a Try
+                        <li>If the play results in a goal, behind, or rushed behind, the scores and Stats table are updated accordingly
                         after each team runs 5 Tries, the game ends.
-                        a. the screen is updated to display "Game Over"
-                        b. the higher score is set to Bold, both are Bold if there is a tie
-                        Underneath:
+                        <li>a. the screen is updated to display "Game Over"
+                        <li>b. the higher score is set to Bold, both are Bold if there is a tie
+                        <p>Underneath:</p>
+                        <p>The app does NOT support rotating, should always use the Portrait layout view. the result of the play is determined by a random number generator:
+                        a. 1 = rushed behind, 3 = behind, 5 = goal</p>
 
-                        The app does NOT support rotating, should always use the Portrait layout view
-
-                        the result of the play is determined by a random number generator:
-                        a. 1 = rushed behind, 3 = behind, 5 = goal
-
-                        The final score is formatted as per the Aussie Rules,
+                        <p>The final score is formatted as per the Aussie Rules,
                         a. #ofGoals.#ofBehinds(TotalScore), for example
                         Team A had 3 goals, 2 behinds, and 1 rushed behind
-                        Team B had 2 goals, 5 behinds, and 2 rushed behind
+                        Team B had 2 goals, 5 behinds, and 2 rushed behind</p>
 
-                        The final formatted score should be like:
+                        <p>The final formatted score should be like:
                         Team A would have 3.4(22) - this is because team A scored 3 goals, had 2 behinds and team B had 2 rushed beinds ((3*6) + 2 + 2 = 22)
 
-                        Team B would have 2.6(18) - this is because team B scored 2 goals, had 5 behinds, and team A had 1 rushed behind ((2*6) + 5 + 1 = 18)
+                        Team B would have 2.6(18) - this is because team B scored 2 goals, had 5 behinds, and team A had 1 rushed behind ((2*6) + 5 + 1 = 18)</p>
                         </p>
                     </div>
                     <!-- End .project-info -->
